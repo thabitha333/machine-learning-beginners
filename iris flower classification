@@ -37,6 +37,7 @@ plt.show()
 # histograms
 dataset.hist()
 plt.show()
+array= dataset.values
 X = array[:,0:4]
 Y = array[:,4]
 validation_size = 0.20
